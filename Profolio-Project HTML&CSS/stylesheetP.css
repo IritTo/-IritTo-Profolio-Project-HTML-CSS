@@ -1,0 +1,88 @@
+/* Base styles for the body */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Styling for main header */
+h1 {
+  font-weight: 700; /* Extra bold for emphasis */
+  color: #2e8b57; /* SeaGreen color for a fresh look */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for secondary header */
+h2 {
+  font-weight: 700; /* Extra bold for emphasis */
+  color: #db7093; /* PaleVioletRed for a soft contrast */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Generic link styling */
+a {
+  color: #2e8b57;
+  text-decoration: none; /* No underline */
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+/* Styling for images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Center-align images */
+  width: 50%; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+  padding: 10px 0; /* Spacing around images */
+}
+
+/* Enhancements for horizontal rules */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #2e8b57;
+  color: #fff;
+}
+
+/* Footer links styling */
+footer a {
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+footer a:hover {
+  color: #db7093;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  img {
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  h1,
+  h2 {
+    margin-bottom: 5px;
+  }
+}
